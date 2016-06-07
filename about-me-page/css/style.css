@@ -1,9 +1,13 @@
+
+
 body {
   /* Typography Declarations */
   color: #FF840D;
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+
 
 .masthead-intro {
   margin-bottom: 0.1em;
@@ -91,4 +95,13 @@ a {
 
 .content-footer > p {
   color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
 }
